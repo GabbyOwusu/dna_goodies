@@ -19,7 +19,8 @@ class Home extends StatelessWidget {
             children: <Widget>[
               Container(
                 child: Column(
-                  mainAxisAlignment: MainAxisAlignment.start,
+                  //mainAxisAlignment: MainAxisAlignment.start,
+                  crossAxisAlignment: CrossAxisAlignment.center,
                   children: <Widget>[
                     Container(
                       margin: EdgeInsets.only(top: 50),
