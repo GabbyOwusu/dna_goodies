@@ -1,4 +1,4 @@
-import 'package:dna_goodies/screens/Anim.dart';
+import 'package:dna_goodies/screens/SplashScreen.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -9,12 +9,13 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'DNA Goodies',
       theme: ThemeData(
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: Anim(),
+      home: Spalsh(),
     );
   }
 }
