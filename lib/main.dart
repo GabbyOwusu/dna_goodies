@@ -1,4 +1,4 @@
-import 'package:dna_goodies/screens/Home.dart';
+import 'package:dna_goodies/screens/Anim.dart';
 import 'package:flutter/material.dart';
 
 void main() {
