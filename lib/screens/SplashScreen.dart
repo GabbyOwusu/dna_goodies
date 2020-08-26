@@ -1,12 +1,12 @@
-import 'package:dna_goodies/screens/Home1dart';
+import 'package:dna_goodies/screens/Welcome.dart';
 import 'package:flutter/material.dart';
 
-class Anim extends StatefulWidget {
+class Spalsh extends StatefulWidget {
   @override
-  _AnimState createState() => _AnimState();
+  _SpalshState createState() => _SpalshState();
 }
 
-class _AnimState extends State<Anim> {
+class _SpalshState extends State<Spalsh> {
   double endSize = 2.0;
   bool ended = false;
 
