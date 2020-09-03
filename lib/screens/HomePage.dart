@@ -8,7 +8,7 @@ class HomePage extends StatefulWidget {
 class _HomePageState extends State<HomePage> {
   PageController _pageController;
   // ignore: unused_field
-  int _selectedPage = 0;
+  int _selectedPage = 3;
 
   @override
   void initState() {
@@ -47,16 +47,6 @@ class _HomePageState extends State<HomePage> {
               child: Stack(
                 children: <Widget>[
                   Center(child: Icon(Icons.home)),
-                  // Positioned(
-                  //   top: 30.0,
-                  //   right: 30.0,
-                  //   child: Column(
-                  //     crossAxisAlignment: CrossAxisAlignment.center,
-                  //     children: <Widget>[
-
-                  //     ],
-                  //   ),
-                  // ),
                   Positioned(
                     left: 30.0,
                     bottom: 40.0,
